@@ -26,6 +26,6 @@ The project can be used as a template.
 
 ## TODO
 
-- [] Add `phpunit.xml` file with default configuration
-- [] Run tests inside the Docker container
-- [] Prepare pipeline configuration using GitHub Actions
+- [ ] Add `phpunit.xml` file with default configuration
+- [ ] Run tests inside the Docker container
+- [ ] Prepare pipeline configuration using GitHub Actions
