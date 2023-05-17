@@ -21,11 +21,11 @@ The project can be used as a template.
 
 - Press `Use this template` on the top and create a new repository for a specific task
 - Clone the repository to your local machine
-- Install dependencies by running the `composer install` command
+- Run `make build` command and then `make start` to startup Docker container
 - Run tests by typing `make test` in the terminal
+- When you finished, run `make stop` command to stop the Docker container
 
 ## TODO
 
 - [ ] Add `phpunit.xml` file with default configuration
-- [ ] Run tests inside the Docker container
 - [ ] Prepare pipeline configuration using GitHub Actions
