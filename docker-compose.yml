@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  php-fpm:
+    container_name: coding-dojo-php
+    build:
+      context: .docker/php-fpm
+    volumes:
+      - .:/var/www
