@@ -1,5 +1,3 @@
-php-container = docker exec -it coding-dojo-php
-
 build:
 	docker-compose build
 
@@ -10,9 +8,15 @@ stop:
 	docker-compose down
 
 composer-install:
-	${php-container} composer install
+	docker exec -it coding-dojo-php composer install
 
 start: up composer-install
 
 test:
-	${php-container} ./vendor/bin/phpunit tests/ --colors --do-not-cache-result --order-by=random
+	docker exec -it coding-dojo-php ./vendor/bin/phpunit
+
+coverage:
+	docker exec -e XDEBUG_MODE=coverage -it coding-dojo-php ./vendor/bin/phpunit --coverage-text
+
+coverage-html:
+	docker exec -e XDEBUG_MODE=coverage -it coding-dojo-php ./vendor/bin/phpunit --coverage-html=.phpunit/coverage-html

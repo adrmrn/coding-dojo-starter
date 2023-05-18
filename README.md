@@ -27,5 +27,4 @@ The project can be used as a template.
 
 ## TODO
 
-- [ ] Add `phpunit.xml` file with default configuration
 - [ ] Prepare pipeline configuration using GitHub Actions
