@@ -22,9 +22,9 @@ The project can be used as a template.
 - Press `Use this template` on the top and create a new repository for a specific task
 - Clone the repository to your local machine
 - Run `make build` command and then `make start` to startup Docker container
-- Run tests by typing `make test` in the terminal
-- When you finished, run `make stop` command to stop the Docker container
+- When you finished, run `make stop` command to stop the container
 
-## TODO
-
-- [ ] Prepare pipeline configuration using GitHub Actions
+There are a few commands you can use during the coding session:
+- `make tests` - runs all of the unit tests
+- `make coverage` - runs all of the unit tests and prints the coverage report in the terminal
+- `make coverage-html` - runs all unit tests and generates HTML coverage report. The report can be found in the `.phpunit/coverage-html` directory. You can just open it in the browser.
