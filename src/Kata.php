@@ -6,5 +6,4 @@ namespace CodingDojo;
 
 class Kata
 {
-
 }

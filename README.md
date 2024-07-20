@@ -25,6 +25,6 @@ The project can be used as a template.
 - When you finished, run `make stop` command to stop the container
 
 There are a few commands you can use during the coding session:
-- `make tests` - runs all of the unit tests
+- `make test` - runs all of the unit tests
 - `make coverage` - runs all of the unit tests and prints the coverage report in the terminal
 - `make coverage-html` - runs all unit tests and generates HTML coverage report. The report can be found in the `.phpunit/coverage-html` directory. You can just open it in the browser.
