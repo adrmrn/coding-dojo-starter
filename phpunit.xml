@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/|version|/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.2/phpunit.xsd"
          cacheResult="false"
          colors="true"
          executionOrder="random">
     <testsuites>
         <testsuite name="unit">
-            <directory suffix="Test.php">./tests</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
     <source>
         <include>
-            <directory suffix=".php">./src</directory>
+            <directory>./src</directory>
         </include>
     </source>
     <coverage pathCoverage="true" />

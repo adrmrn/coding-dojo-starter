@@ -4,10 +4,10 @@
     "description": "The Coding Dojo starter.",
     "license": "MIT",
     "require": {
-        "php": "^8.2"
+        "php": "^8.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.1"
+        "phpunit/phpunit": "^11.2"
     },
     "autoload": {
         "psr-4": {
